@@ -1,0 +1,177 @@
+
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h3, h5, h6 {
+  font-family: 'Montserrat';
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+
+/* Hedings */
+
+.big-heading {
+  font-family: 'Montserrat', san-serif;
+  font-weight: 900;
+  font-size: 3.1rem;
+  line-height: 1.5;
+}
+
+/* navigation bar */
+
+.navbar {
+  padding:  0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+.nav-link {
+  font-family: 'Montserrat'
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+/* TITLE SECTION */
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 7%;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 10% 0 30% 0;
+}
+
+/* Title image */
+.title-image {
+  width: 20rem;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+
+}
+
+/* Features */
+
+#features {
+  position: relative;
+  z-index: 1;
+  padding: 5% 0 0 0;
+}
+
+.icon-features {
+  font-size: 400%;
+  color: #ff4c68;
+  padding: 0 0 20% 0;
+}
+
+.icon-features:hover {
+  color: #B20600;
+}
+
+.h3-features {
+  font-weight: bold;
+  font-size: 150%;
+  font-weight: 800;
+}
+
+.p-features {
+  font-family: "Montserrat";
+  color: #0f0f0f;
+}
+
+/* testimonial  section */
+
+#testimonials,#press {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing */
+.row {
+  margin: 0 5% 0 5%;
+
+}
+
+.plans {
+  margin-top: 5%;
+
+}
+
+@media (max-width: 1084px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+  }
+  .download-button {
+    margin: 10% 0 10% 0;
+  }
+}
+
+/* CTA */
+
+.button2 {
+  margin: 3% 0 3% 0;
+}
+
+/* Footer */
+
+.brand-icons {
+  font-size: 120%;
+  color: #000;
+  margin: 5% 0.5rem 1% 0.5rem;
+}
+
+.copywright {
+  color: grey;
+  margin: 1% 0 5% 0;
+}
